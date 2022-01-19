@@ -59,6 +59,11 @@ nav.navbar {
   margin-right: 5%;
 }
 
+/*---Carousel ---*/
+
+#carouselExampleIndicators {
+  margin-top: 30px;
+}
 
 .carousel-item img{
   height: 470px;
@@ -82,6 +87,56 @@ nav.navbar {
   filter: invert(100%);
   
 }
+
+/*---Mayores Ventas ---*/
+
+#top_ventas h4{
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/*--- Zapatillas Top ---*/
+
+#zapatillasTop {
+  justify-content: space-around;
+}
+
+#card_zapatillasTop {
+  width: 13.5rem; 
+  border-color: #EFEFEF;
+  border-width: 2px;
+}
+
+#card_zapatillasTop p{
+  font-weight: bold;
+  font-size:  24px;
+  padding: auto;
+}
+
+/*---Marcas Principales ---*/
+
+#marcas h4{
+  font-weight: bold; margin-top: 40px;
+}
+
+#marcasPrincipales{
+  justify-content: space-around;
+}
+
+#marcasPrincipales_card{
+  width: 18rem;
+  border-color: #EFEFEF;
+  border-width: 2px;
+}
+
+#marcasPrincipales_card img{
+  display: block;
+  margin: auto;
+}
+
+
+
 
 
 
