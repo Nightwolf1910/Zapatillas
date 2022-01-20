@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/registro.css">
+
+    <title>Ez-neakers</title>
+
+</head>
+<body>
+    <header class="header">
+        <!-- Barra de Navegacion -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a href="index.ejs"><img src="../img/logo.png" alt="logo de la empresa" class="logo"></a>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" size="70" type="search" placeholder="Busca tus productos" aria-label="Search"> 
+                <button type="submit" class="btn btn-danger my-2 my-sm-0">Buscar</button>
+            </form>
+
+            <div>
+            <!-- Botones de la Barra de Navegacion -->
+                <div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle ml-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Más
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                        <a class="dropdown-item" href="#">4</a>
+                        <a class="dropdown-item" href="#">5</a>
+                        <a class="dropdown-item" href="#">6</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">X</a>
+                    </div>
+                </div>
+            <a class="btn btn-danger ml-3" href="/sesion">Iniciar Sesión</a>
+            <a class="btn btn-danger ml-3 my-sm-0" href="/register">Registrate</a>
+            </div>
+        </nav>
+        <!-- Separador -->
+        <div class="separator"></div>
+    </header>
