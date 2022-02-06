@@ -23,6 +23,9 @@ app.get('/',(req,res)=>{
 app.get('/register',(req,res)=>{
     res.render('registro')
 })
+app.get('/registro2.ejs',(req,res)=>{
+    res.render('registro2')
+})
 app.get('/sesion',(req,res)=>{
     res.render('sesion')
 })
