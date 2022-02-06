@@ -137,7 +137,7 @@ nav.navbar {
 
 #creacuenta{
   font-weight:bold;
-  font-size: 42px;
+  font-size: 36px;
   
 }
 
@@ -151,18 +151,18 @@ nav.navbar {
 }
 
 .form_datosPersonales h4{
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 700;
 } 
 
 #datain{
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
 
 }
 
 #checks{
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .form-elegant .font-small {
@@ -248,6 +248,12 @@ nav.navbar {
         display:flex;
     }
 }
+
+
+
+
+
+
 
 @media(min-width:1024px){
   .nav {
