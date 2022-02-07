@@ -158,7 +158,7 @@ nav.navbar {
 #datain{
   font-size: 14px;
   font-weight: 600;
-  
+
 
 }
 
@@ -166,7 +166,9 @@ nav.navbar {
   margin-top: 10px;
 }
 
-
+#checks label{
+    font-size: 14px;
+}
 
 
 
